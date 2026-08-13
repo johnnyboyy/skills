@@ -1,0 +1,12 @@
+[submodule "praxis"]
+	path = praxis
+	url = git@github.com:johnnyboyy/Praxis.git
+[submodule "corpora"]
+	path = corpora
+	url = ./corpora
+[submodule "domains"]
+	path = domains
+	url = ./domains
+[submodule "uiux"]
+	path = uiux
+	url = ./uiux

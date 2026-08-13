@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skills",
+  "owner": { "name": "John Zdanis" },
+  "description": "The constellation — one umbrella over the four version-coupled repos: the praxis process engine, the corpora judgment lifecycle, and the uiux design practice. (domains is a corpora data collection, imported per-root, not a plugin.)",
+  "plugins": [
+    {
+      "name": "praxis",
+      "source": "./praxis",
+      "description": "Process/orchestration engine: frames a unit of work, composes context per phase, drives it through typed-edge workflows (or spawns it isolated), verifies at a barrier, and gates edits until a unit is framed."
+    },
+    {
+      "name": "corpora",
+      "source": "./corpora",
+      "description": "Standalone composer/judgment system over domain-file artifacts: discovers and injects domains at prompt-assembly time, and grows the pool via a forward-pass harvest ask plus a reading front end."
+    },
+    {
+      "name": "uiux",
+      "source": "./uiux",
+      "description": "Standalone design-practice plugin: library state, screenshot staleness, the deferred-decisions queue, and design workflows — with a praxis adapter."
+    }
+  ]
+}

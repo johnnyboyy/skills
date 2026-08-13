@@ -3,10 +3,10 @@
 	url = git@github.com:johnnyboyy/Praxis.git
 [submodule "corpora"]
 	path = corpora
-	url = ./corpora
+	url = git@github.com:johnnyboyy/corpora.git
 [submodule "domains"]
 	path = domains
-	url = ./domains
+	url = git@github.com:johnnyboyy/domains.git
 [submodule "uiux"]
 	path = uiux
-	url = ./uiux
+	url = git@github.com:johnnyboyy/uiux.git

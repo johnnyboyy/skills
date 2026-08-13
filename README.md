@@ -20,8 +20,7 @@ tracking branches.
 - **Day to day**: work in a child repo as usual — commit, push, ignore the umbrella.
 - **Pin a constellation**: when the set is green together, from here:
   `git add praxis corpora domains uiux && git commit -m "constellation: <what changed>"`.
-- **Fresh clone**: `git clone --recurse-submodules <this repo>`. Note: `corpora`,
-  `domains`, and `uiux` have placeholder relative URLs until they get remotes — after
-  publishing a child, run `git submodule set-url <name> <real-url>`.
+- **Fresh clone**: `git clone --recurse-submodules git@github.com:johnnyboyy/skills.git`
+  reproduces the ecosystem at the pinned constellation.
 - The children never "fall out": the umbrella tracks them as gitlinks + `.gitmodules`,
   never as plain directories.
